@@ -65,7 +65,6 @@ export default function Items() {
           trigger: div,
           scroller: "body",
           start: `top ${idx === 0 ? '10%':'80%'}`,
-          markers:true,
           end: `bottom ${idx === 1 || idx === 3 ? "70%" : "top"}`,
           scrub: 2,
           onEnter: () => setActiveTitle(idx),
